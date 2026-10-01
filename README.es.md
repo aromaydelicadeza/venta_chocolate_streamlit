@@ -1,3 +1,7 @@
+# URL WEB
+
+https://venta-chocolate-streamlit.onrender.com/
+
 # Plantilla de Proyecto de Ciencia de Datos
 
 Esta plantilla está diseñada para impulsar proyectos de ciencia de datos proporcionando una configuración básica para conexiones de base de datos, procesamiento de datos, y desarrollo de modelos de aprendizaje automático. Incluye una organización estructurada de carpetas para tus conjuntos de datos y un conjunto de paquetes de Python predefinidos necesarios para la mayoría de las tareas de ciencia de datos.
