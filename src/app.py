@@ -3,8 +3,11 @@ import pandas as pd
 import joblib
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
-model = joblib.load('models/modelo_arima_chocolates.model')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ruta_modelo = os.path.join(BASE_DIR, "../models/modelo_arima_chocolates.model")
+model = joblib.load(ruta_modelo)
 
 st.set_page_config(
     page_title="Predicción de Ventas de Chocolate",
